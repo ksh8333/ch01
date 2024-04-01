@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 정보 입력받 고 출력하기</title>
+</head>
+<body>
+    
+    <h1 id="name"></h1>
+    <p id="ani"></p>
+    <p id="fru"></p>
+    
+    <script>
+        document.querySelector("#name").textContent=`당신의 이름은? ${prompt("이름은?")} 입니다.`
+        document.querySelector("#ani").textContent=`좋아하는 동물은?? ${prompt("동물은?")} 입니다.`
+
+        document.querySelector("#fru").textContent=`좋아하는과일 이름은? ${prompt("과일은?")} 입니다.`
+
+    </script>
+</body>
+</html>
